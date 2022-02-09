@@ -1,7 +1,9 @@
-import CharacterCard from './components/CharacterCard/CharacterCard';
+import characters from './data/characters'
 import './App.css';
 
 function App() {
+
+  
   return (
     <div className="App">
      

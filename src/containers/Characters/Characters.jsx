@@ -1,8 +1,13 @@
 import React from 'react'
+import "./Characters.scss"
+import CharacterCard from '../../components/CharacterCard/CharacterCard';
 
-const Characters = () => {
+const Characters = (props) => {
+
   return (
-    <div>Characters</div>
+    <div>
+      
+    </div>
   )
 }
 

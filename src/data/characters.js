@@ -10380,4 +10380,6 @@ const characters = [
       "alive": true,
       "image": ""
   }
-]
+];
+
+export default characters;
