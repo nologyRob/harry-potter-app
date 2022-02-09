@@ -1,19 +1,32 @@
-# Getting Started with Create React App
+# Welcome to the Harry Potter Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a challenge for Nology Students created by Rob Hooper
 
-## Available Scripts
+## Instructions
 
-In the project directory, you can run:
+Use the data file provided to create character cards for the characters of the famous film 'Harry Potter'
 
-### `npm start`
+We expect to see the following:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Passing Props
+* Passing Props through multiple levels
+* Mapping the data array
+* Appropriate styling
+* Prop destructuring
+* BEM naming convention
+* The use of the Character container
+* The use of the CharacterCard component
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Bonus
 
-https://drive.google.com/file/d/1twgLl-qtEV-qrZTJSAv_kkkczh3-oM0y/view?usp=sharing
+* Filter the array to only include characters with images
+* Have fun!! What can you create!? Multiple sections for the students of each house? 
+* Use this repo as a place to practice what we are learning about
+* Can we add state to this project?
+
+### API
+* Once you have learnt how to use useEffect and Fetch, use the api below instead of the data file.
+* https://hp-api.herokuapp.com/
+
 
 <img src="Notes/ExampleImage.png" alt="" />

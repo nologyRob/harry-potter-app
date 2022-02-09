@@ -1,13 +1,11 @@
-import characters from './data/characters'
-import './App.css';
+import characters from "./data/characters";
+import "./App.css";
 
 function App() {
-
-  
-  return (
-    <div className="App">
-     
-    </div>
+  return(
+  <div className="App">
+    <h1>Harry Potter App</h1>
+  </div>
   );
 }
 
