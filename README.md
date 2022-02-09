@@ -28,5 +28,5 @@ We expect to see the following:
 * Once you have learnt how to use useEffect and Fetch, use the api below instead of the data file.
 * https://hp-api.herokuapp.com/
 
-
+### Example of a VERY basic character card grid
 <img src="Notes/ExampleImage.png" alt="" />
