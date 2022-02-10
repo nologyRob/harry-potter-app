@@ -1,4 +1,3 @@
-import characters from "./data/characters";
 import "./App.css";
 
 function App() {
