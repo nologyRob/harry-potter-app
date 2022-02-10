@@ -817,7 +817,7 @@ const characters = [
       "actor": "David Brett",
       "alternate_actors": [],
       "alive": true,
-      "image": ""
+      "image": "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/cdn/0cd80a74-90b0-4352-8d0d-d78729726bc4/c7f95e70-339a-4d1d-95fb-69e9aba9b874.jpg"
   },
   {
       "name": "Madam Pomfrey",
@@ -844,7 +844,7 @@ const characters = [
       "actor": "Gemma Jones",
       "alternate_actors": [],
       "alive": true,
-      "image": ""
+      "image": "https://static.wikia.nocookie.net/harrypotter/images/5/56/Madam_Pomfrey.png/revision/latest?cb=20131110073338"
   },
   {
       "name": "Mrs Figg",
@@ -871,7 +871,7 @@ const characters = [
       "actor": "Kathryn Hunter",
       "alternate_actors": [],
       "alive": true,
-      "image": ""
+      "image": "https://static.wikia.nocookie.net/harrypotter/images/8/82/Figg.jpg/revision/latest?cb=20080102062404"
   },
   {
       "name": "Marge Dursley",
@@ -901,32 +901,7 @@ const characters = [
       "actor": "Pam Ferris",
       "alternate_actors": [],
       "alive": true,
-      "image": ""
-  },
-  {
-      "name": "Yvonne",
-      "alternate_names": [],
-      "species": "human",
-      "gender": "female",
-      "house": "",
-      "dateOfBirth": "",
-      "yearOfBirth": "",
-      "wizard": false,
-      "ancestry": "muggle",
-      "eyeColour": "",
-      "hairColour": "",
-      "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-      },
-      "patronus": "",
-      "hogwartsStudent": false,
-      "hogwartsStaff": false,
-      "actor": "",
-      "alternate_actors": [],
-      "alive": true,
-      "image": ""
+      "image": "https://static.wikia.nocookie.net/harrypotter/images/7/7e/Marjorie_dursley_promo.jpg/revision/latest?cb=20141106101744"
   },
   {
       "name": "Piers Polkiss",
@@ -951,7 +926,7 @@ const characters = [
       "actor": "Jason Boyd",
       "alternate_actors": [],
       "alive": true,
-      "image": ""
+      "image": "https://external-preview.redd.it/awi-foJ6mrFLuflR0uXS9B_z3h2tjuADR-wmOLVmBRQ.jpg?auto=webp&s=b145bea8f60cfc641e687876bbe5f08570d26f21"
   },
   {
       "name": "Dennis",
@@ -976,7 +951,7 @@ const characters = [
       "actor": "Christopher Rithin",
       "alternate_actors": [],
       "alive": true,
-      "image": ""
+      "image": "https://static.wikia.nocookie.net/harrypotter/images/b/bd/Dennis.png/revision/latest/top-crop/width/360/height/360?cb=20121108112043"
   },
   {
       "name": "Malcolm",
@@ -1001,7 +976,7 @@ const characters = [
       "actor": "Richard Macklin",
       "alternate_actors": [],
       "alive": true,
-      "image": ""
+      "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e4/Malcolm.png/revision/latest/top-crop/width/360/height/360?cb=20121108111856"
   },
   {
       "name": "Gordon",
@@ -1026,7 +1001,7 @@ const characters = [
       "actor": "",
       "alternate_actors": [],
       "alive": true,
-      "image": ""
+      "image": "https://static.wikia.nocookie.net/harrypotter/images/2/23/Gordon.png/revision/latest?cb=20121108111426"
   },
   {
       "name": "Miranda Gaushawk",
