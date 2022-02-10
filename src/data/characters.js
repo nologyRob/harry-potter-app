@@ -665,7 +665,7 @@ const characters = [
       "actor": "Richard Griffiths",
       "alternate_actors": [],
       "alive": true,
-      "image": ""
+      "image": "https://static.wikia.nocookie.net/harrypotter/images/2/20/Vernon_Dursley.jpg/revision/latest?cb=20160121162004"
   },
   {
       "name": "Petunia Dursley",
@@ -690,7 +690,7 @@ const characters = [
       "actor": "Fiona Shaw",
       "alternate_actors": [],
       "alive": true,
-      "image": ""
+      "image": "https://static.wikia.nocookie.net/harrypotter/images/6/64/Petunia_DH1.png/revision/latest?cb=20200413045426"
   },
   {
       "name": "Dudley Dursley",
@@ -715,7 +715,7 @@ const characters = [
       "actor": "Harry Melling",
       "alternate_actors": [],
       "alive": true,
-      "image": ""
+      "image": "https://i.pinimg.com/originals/af/d7/ab/afd7ab9b7cc5752e80a5d4ffdb5a1e58.jpg"
   },
   {
       "name": "Lily Potter",
@@ -740,7 +740,7 @@ const characters = [
       "actor": "Geraldine Somerville",
       "alternate_actors": [],
       "alive": false,
-      "image": ""
+      "image": "https://i.pinimg.com/originals/b9/47/26/b947262b31d02288dd1c415869218b5b.jpg"
   },
   {
       "name": "James Potter",
@@ -765,7 +765,7 @@ const characters = [
       "actor": "Adrian Rawlins",
       "alternate_actors": [],
       "alive": false,
-      "image": ""
+      "image": "https://static.wikia.nocookie.net/harrypotter/images/1/10/James_Potter_I_Deathly_Hallows.jpg/revision/latest/top-crop/width/360/height/360?cb=20180601015416"
   },
   {
       "name": "Albus Dumbledore",
@@ -792,7 +792,7 @@ const characters = [
           "Michael Gambon"
       ],
       "alive": false,
-      "image": ""
+      "image": "https://static.wikia.nocookie.net/harrypotter/images/4/40/Albus_Dumbledore_%28HBP_promo%29_3.jpg/revision/latest?cb=20150822232849"
   },
   {
       "name": "Dedalus Diggle",
