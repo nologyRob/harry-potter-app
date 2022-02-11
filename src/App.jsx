@@ -1,11 +1,15 @@
 import "./App.css";
-import React, {useEffect} from 'react';
+import "./App.scss";
+import Nav from "./containers/Nav/Nav";
+import Characters from "./containers/Characters/Characters"
+import React, { useEffect, useState } from "react";
 
 function App() {
-  return(
-  <div className="App">
-    <h1>Harry Potter App</h1>
-  </div>
+  return (
+    <div className="App">
+      <Nav />
+      <Characters />
+    </div>
   );
 }
 

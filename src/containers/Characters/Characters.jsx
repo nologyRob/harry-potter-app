@@ -5,8 +5,8 @@ import CharacterCard from '../../components/CharacterCard/CharacterCard';
 const Characters = (props) => {
 
   return (
-    <div>
-      
+    <div className="characters">
+      <h1>This is where the character tiles should show!</h1>
     </div>
   )
 }

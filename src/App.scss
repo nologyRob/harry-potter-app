@@ -1,0 +1,18 @@
+.App {
+  display: flex;
+  margin: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 95vw;
+
+}
+
+.card {
+  margin: 10px;
+}
+
+.image {
+  height: 70vh;
+  width: auto;
+}

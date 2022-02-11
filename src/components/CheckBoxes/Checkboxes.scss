@@ -1,0 +1,19 @@
+.checkboxes {
+  width: 80%;
+  height: 30vh;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+
+
+
+&__checkbox{
+  margin-right: 10px;
+}
+&__label {
+  color: white;
+}
+
+}
