@@ -3,9 +3,13 @@ import "./CharacterCard.scss"
 
 const CharacterCard = (props) => {
 
+  const {name, house, image} = props;
+
   return (
-    <div>
-      
+    <div className='character-card'>
+      <h3>{name}</h3>
+      <img className="character-card__image" src={image} alt="" />
+      <h4>{house}</h4>
     </div>
   )
 }

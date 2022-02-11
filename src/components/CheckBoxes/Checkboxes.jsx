@@ -1,44 +1,43 @@
 import React from 'react'
 import "./Checkboxes.scss"
 
-const Checkboxes = () => {
+const Checkboxes = (props) => {
+  const {house} = props;
+
   return (
     <form className="checkboxes">
         <div>
           <input className="checkboxes__checkbox"
             type="checkbox"
-            id="subscribeNews"
-            name="subscribe"
-            value="newsletter"
+            id="Gryffindor"
+            value={house}
           />
-          <label className="checkboxes__label" for="subscribeNews">Gryffindor</label>
+          <label className="checkboxes__label" htmlFor="subscribeNews">Gryffindor</label>
           </div>
           <div>
           <input className="checkboxes__checkbox"
             type="checkbox"
-            id="subscribeNews"
-            name="subscribe"
-            value="newsletter"
+            id="Hufflepuff"
+            value={house}
           />
-          <label className="checkboxes__label" for="subscribeNews">Hufflepuff</label>
+          <label className="checkboxes__label" htmlFor="subscribeNews">Hufflepuff</label>
           </div>
           <div>
           <input className="checkboxes__checkbox"
             type="checkbox"
-            id="subscribeNews"
-            name="subscribe"
-            value="newsletter"
+            id="Ravenclaw"
+            value={house}
           />
-          <label className="checkboxes__label" for="subscribeNews">Ravenclaw</label>
+          <label className="checkboxes__label" htmlFor="subscribeNews">Ravenclaw</label>
           </div>
           <div>
           <input className="checkboxes__checkbox"
             type="checkbox"
-            id="subscribeNews"
-            name="subscribe"
-            value="newsletter"
+            id="Slytherin"
+            name="Slytherin"
+            value={house}
           />
-          <label className="checkboxes__label" for="subscribeNews">Slytherin</label>
+          <label className="checkboxes__label" htmlFor="subscribeNews">Slytherin</label>
           </div>
       </form>
   )

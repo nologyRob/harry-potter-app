@@ -1,0 +1,10 @@
+.character-card {
+  height: 60vh;
+  width: 20vw;
+
+  &__image{
+    height: 50%;
+    width: auto;
+    border-radius: 10px;
+  }
+}

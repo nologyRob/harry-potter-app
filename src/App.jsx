@@ -2,13 +2,22 @@ import "./App.css";
 import "./App.scss";
 import Nav from "./containers/Nav/Nav";
 import Characters from "./containers/Characters/Characters"
-import React, { useEffect, useState } from "react";
+import charactersArr from "./data/characters";
+import React, {useState } from "react";
 
 function App() {
+  const [searchTerm, setSearchTerm] = useState("")
+  const [house, setHouse] = useState("")
+  const handleInput = (event) => {
+    setSearchTerm(event.target.value)
+  }
+
+  const filteredSearch = charactersArr.filter(character => character.name.includes(searchTerm))
+
   return (
     <div className="App">
-      <Nav />
-      <Characters />
+      <Nav handleInput={handleInput} searchTerm={searchTerm} house={house}/>
+      <Characters characterArr={filteredSearch}/>
     </div>
   );
 }

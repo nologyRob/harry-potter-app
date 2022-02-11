@@ -1,4 +1,4 @@
-const characters = [
+const charactersArr = [
   {
       "name": "Harry Potter",
       "alternate_names": [],
@@ -665,7 +665,7 @@ const characters = [
       "actor": "Richard Griffiths",
       "alternate_actors": [],
       "alive": true,
-      "image": "https://static.wikia.nocookie.net/harrypotter/images/2/20/Vernon_Dursley.jpg/revision/latest?cb=20160121162004"
+      "image": ""
   },
   {
       "name": "Petunia Dursley",
@@ -690,7 +690,7 @@ const characters = [
       "actor": "Fiona Shaw",
       "alternate_actors": [],
       "alive": true,
-      "image": "https://static.wikia.nocookie.net/harrypotter/images/6/64/Petunia_DH1.png/revision/latest?cb=20200413045426"
+      "image": ""
   },
   {
       "name": "Dudley Dursley",
@@ -765,7 +765,7 @@ const characters = [
       "actor": "Adrian Rawlins",
       "alternate_actors": [],
       "alive": false,
-      "image": "https://static.wikia.nocookie.net/harrypotter/images/1/10/James_Potter_I_Deathly_Hallows.jpg/revision/latest/top-crop/width/360/height/360?cb=20180601015416"
+      "image": ""
   },
   {
       "name": "Albus Dumbledore",
@@ -792,7 +792,7 @@ const characters = [
           "Michael Gambon"
       ],
       "alive": false,
-      "image": "https://static.wikia.nocookie.net/harrypotter/images/4/40/Albus_Dumbledore_%28HBP_promo%29_3.jpg/revision/latest?cb=20150822232849"
+      "image": ""
   },
   {
       "name": "Dedalus Diggle",
@@ -844,7 +844,7 @@ const characters = [
       "actor": "Gemma Jones",
       "alternate_actors": [],
       "alive": true,
-      "image": "https://static.wikia.nocookie.net/harrypotter/images/5/56/Madam_Pomfrey.png/revision/latest?cb=20131110073338"
+      "image": ""
   },
   {
       "name": "Mrs Figg",
@@ -871,7 +871,7 @@ const characters = [
       "actor": "Kathryn Hunter",
       "alternate_actors": [],
       "alive": true,
-      "image": "https://static.wikia.nocookie.net/harrypotter/images/8/82/Figg.jpg/revision/latest?cb=20080102062404"
+      "image": ""
   },
   {
       "name": "Marge Dursley",
@@ -901,7 +901,7 @@ const characters = [
       "actor": "Pam Ferris",
       "alternate_actors": [],
       "alive": true,
-      "image": "https://static.wikia.nocookie.net/harrypotter/images/7/7e/Marjorie_dursley_promo.jpg/revision/latest?cb=20141106101744"
+      "image": ""
   },
   {
       "name": "Piers Polkiss",
@@ -10357,4 +10357,4 @@ const characters = [
   }
 ];
 
-export default characters;
+export default charactersArr;

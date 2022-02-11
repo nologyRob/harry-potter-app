@@ -1,13 +1,20 @@
-import React from 'react'
-import "./SearchBar.scss"
+import React from "react";
+import "./SearchBar.scss";
 
-const SearchBar = () => {
+const SearchBar = (props) => {
+  const { searchTerm, handleInput } = props;
   return (
-     <form className = "searchBar" action="">
-        <label htmlFor="search"></label>
-        <input className="searchBar__input" type="text" placeholder="Search..." />
-      </form>
-  )
-}
+    <form className="searchBar" action="">
+      <label htmlFor="search"></label>
+      <input
+        className="searchBar__input"
+        type="text"
+        placeholder="Search..."
+        onInput={handleInput}
+        value={searchTerm}
+      />
+    </form>
+  );
+};
 
-export default SearchBar
+export default SearchBar;

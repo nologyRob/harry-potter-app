@@ -3,12 +3,13 @@ import "./Nav.scss";
 import logo from "../../assets/images/logo.png";
 import SearchBar from "../../components/SearchBar/SearchBar";
 import Checkboxes from "../../components/CheckBoxes/Checkboxes"
-const Nav = () => {
+const Nav = (props) => {
+  const {searchTerm, house, handleInput} = props;
   return (
     <div className="sidenav">
       <img className="sidenav__logo" src={logo} alt="" />
-      <SearchBar />
-      <Checkboxes />
+      <SearchBar handleInput={handleInput} searchTerm={searchTerm} />
+      <Checkboxes house={house}/>
     </div>
   );
 };
