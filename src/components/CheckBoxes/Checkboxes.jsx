@@ -2,7 +2,7 @@ import React from 'react'
 import "./Checkboxes.scss"
 
 const Checkboxes = (props) => {
-  const {house} = props;
+  const {handleChecked} = props;
 
   return (
     <form className="checkboxes">
@@ -10,7 +10,7 @@ const Checkboxes = (props) => {
           <input className="checkboxes__checkbox"
             type="checkbox"
             id="Gryffindor"
-            value={house}
+            onChange = {handleChecked}
           />
           <label className="checkboxes__label" htmlFor="subscribeNews">Gryffindor</label>
           </div>
@@ -18,7 +18,7 @@ const Checkboxes = (props) => {
           <input className="checkboxes__checkbox"
             type="checkbox"
             id="Hufflepuff"
-            value={house}
+            onChange={handleChecked}
           />
           <label className="checkboxes__label" htmlFor="subscribeNews">Hufflepuff</label>
           </div>
@@ -26,7 +26,7 @@ const Checkboxes = (props) => {
           <input className="checkboxes__checkbox"
             type="checkbox"
             id="Ravenclaw"
-            value={house}
+            onChange={handleChecked}
           />
           <label className="checkboxes__label" htmlFor="subscribeNews">Ravenclaw</label>
           </div>
@@ -35,7 +35,7 @@ const Checkboxes = (props) => {
             type="checkbox"
             id="Slytherin"
             name="Slytherin"
-            value={house}
+            onChange={handleChecked}
           />
           <label className="checkboxes__label" htmlFor="subscribeNews">Slytherin</label>
           </div>
