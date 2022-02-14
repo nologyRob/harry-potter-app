@@ -10,7 +10,7 @@ function App() {
   const [data, setData] = useState([]);
   const [gryfCheck, setGryfCheck] = useState(false);
   const [ravenCheck, setRavenCheck] = useState(false);
-  const [huffleCheck, sethuffleCheck] = useState(false);
+  const [huffleCheck, setHuffleCheck] = useState(false);
   const [slytherinCheck, setSlytherinCheck] = useState(false);
 
   const handleInput = (event) => {
@@ -28,7 +28,7 @@ function App() {
     } else if (event.target.id === "Ravenclaw") {
       setRavenCheck(event.target.checked);
     } else if (event.target.id === "Hufflepuff") {
-      sethuffleCheck(event.target.checked);
+      setHuffleCheck(event.target.checked);
     } else {
       setSlytherinCheck(event.target.checked);
     }
