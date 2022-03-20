@@ -6,11 +6,11 @@ import Checkboxes from "../../components/CheckBoxes/Checkboxes"
 const Nav = (props) => {
   const {searchTerm, handleInput, handleChecked} = props;
   return (
-    <div className="sidenav">
+    <nav className="sidenav">
       <img className="sidenav__logo" src={logo} alt="" />
       <SearchBar handleInput={handleInput} searchTerm={searchTerm} />
       <Checkboxes handleChecked={handleChecked} />
-    </div>
+    </nav>
   );
 };
 
