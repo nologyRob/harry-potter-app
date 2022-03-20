@@ -14,7 +14,7 @@ function App() {
   const [slytherinCheck, setSlytherinCheck] = useState(false);
 
   const handleInput = (event) => {
-    setSearchTerm(event.target.value);
+    setSearchTerm(event.target.value.toLowerCase());
   };
   useEffect(() => {
     fetch("http://hp-api.herokuapp.com/api/characters")
@@ -22,6 +22,7 @@ function App() {
       .then((response) => setData(response));
   }, []);
 
+  console.log(data)
   const handleChecked = (event) => {
     if (event.target.id === "Gryffindor") {
       setGryfCheck(event.target.checked);
@@ -37,7 +38,7 @@ function App() {
   const filteredSearch = data.filter((character) => {
     if (gryfCheck) {
       return (
-        character.name.includes(searchTerm) && character.house === "Gryffindor"
+        character.name.toincludes(searchTerm) && character.house === "Gryffindor"
       );
     } else if (ravenCheck) {
       return (
@@ -52,7 +53,7 @@ function App() {
         character.name.includes(searchTerm) && character.house === "Slytherin"
       );
     } else {
-      return character.name.includes(searchTerm);
+      return character.name.toLowerCase().includes(searchTerm);
     }
   });
 
