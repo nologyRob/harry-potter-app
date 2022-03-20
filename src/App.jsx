@@ -3,7 +3,6 @@ import "./App.css";
 import "./App.scss";
 import Nav from "./containers/Nav/Nav";
 import Characters from "./containers/Characters/Characters";
-import charactersArr from "./data/characters";
 
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
