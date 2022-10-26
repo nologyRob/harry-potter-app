@@ -13,6 +13,7 @@ function App() {
   };
 
   const handleCheckbox = (event) => {
+    console.log("event", event);
     if (event.target.checked && event.target.value.length > 0) {
       setHouses([...houses, event.target.value]);
     } else if (!event.target.checked) {
@@ -26,17 +27,17 @@ function App() {
     }
   };
 
+  console.log("houses", houses);
+
   const filteredSearch = charactersArr.filter((character) =>
     character.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   let newCharArray = [];
   charactersArr.forEach((character) => {
-    houses.forEach((singleHouse) => {
-      if (character.house.includes(singleHouse)) {
-        newCharArray.push(character);
-      }
-    });
+    if (houses.includes(character.house)) {
+      newCharArray.push(character);
+    }
   });
 
   return (
